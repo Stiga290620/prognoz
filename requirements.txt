@@ -5,5 +5,8 @@ pandas
 plotly
 gunicorn
 folium
-keras
-tensorflow
+sympy
+sklearn
+scikit-learn
+future
+numpy
