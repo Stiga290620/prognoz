@@ -34,7 +34,7 @@ app.layout = html.Div([
         # src = 'https://cdny.de/p/x/c/f0f/7188223.jpg',
         # src = 'map0001.htm',
         srcDoc = txtx,
-        width="1300", height="60",
+        width="1300", height="260",
     ),
     # html.P(['Разработал:', html.A('Юрий', href='#map0001.html')]),
 
