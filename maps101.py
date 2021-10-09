@@ -8,6 +8,7 @@ import dash_html_components as html
 from dash.dependencies import Input, Output
 from maps02 import m as fig001
 from maps02 import txtx
+import keras as k
 
 app = dash.Dash(__name__)
 server=app.server
@@ -16,7 +17,7 @@ server=app.server
 # Import and clean data (importing csv into pandas)
 df0 = pd.read_csv("2-1.csv")
 
-
+model = k.Sequential()
 
 # ------------------------------------------------------------------------------
 # App layout
